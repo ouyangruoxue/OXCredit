@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MoreViewController.h
 //  OXCredit
 //
 //  Created by zuo xiaolin on 15/6/5.
@@ -7,9 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
-
+#import "BaseViewController.h"
+@interface MoreViewController : BaseViewController
 
 @end
-

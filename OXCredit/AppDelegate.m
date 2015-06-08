@@ -14,9 +14,31 @@
 
 @implementation AppDelegate
 
++ (AppDelegate*)appDelegate {
+    return (AppDelegate*)[[UIApplication sharedApplication] delegate];
+}
+
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    HomeViewController * homeVc  = [[HomeViewController alloc] init];
+    
+    ProjectViewController * project  = [[ProjectViewController alloc] init];
+    
+    MineViewController * mine = [[MineViewController alloc] init];
+    
+    MoreViewController * more = [[MoreViewController alloc] init];
+    
+    CustomTabBarController *tabBarController = [[CustomTabBarController alloc] init];
+    
+    tabBarController.viewControllers = @[homeVc,project,mine,more];
+    [tabBarController layoutVisibleTabbar_containExtraController:NO];
+    tabBarController.selectedButtonIndex = 0;
+    [tabBarController setTab];
+    
+    _rootNaviController = [[CustomNavigationController alloc] initWithRootViewController:tabBarController];
+    self.window.rootViewController = _rootNaviController;
+    [self.window makeKeyAndVisible];
+
     return YES;
 }
 

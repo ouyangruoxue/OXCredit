@@ -1,0 +1,25 @@
+//
+//  PrefixHeader.pch
+//  OXCredit
+//
+//  Created by zuo xiaolin on 15/6/5.
+//  Copyright (c) 2015年 zuo xiaolin. All rights reserved.
+//
+
+#ifndef OXCredit_PrefixHeader_pch
+#define OXCredit_PrefixHeader_pch
+
+#import "UIViewAdditions.h"
+#import "NSString+Utility.h"
+#import "ZSConfig.h"
+#import "PUUtil.h"
+#import "Addtions.h"
+#import "PopupNotify.h"
+#import "NSDictionary+Additions.h"
+#import "Utility.h"
+#import "UIImageView+WebCache.h"
+#import "SDImageCache.h"
+#import "Global.h"
+
+
+#endif
