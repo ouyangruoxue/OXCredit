@@ -37,6 +37,25 @@
     return name;
 }
 
+
++ (int)countWord:(NSString*)s {
+    int i,n=(int)[s length],l=0,a=0,b=0;
+    unichar c;
+    for(i=0;i<n;i++){
+        c=[s characterAtIndex:i];
+        if(isblank(c)){
+            b++;
+        }else if(isascii(c)){
+            a++;
+        }else{
+            l++;
+        }
+    }
+    if(a==0 && l==0) return 0;
+    return l+(int)ceilf((float)(a+b)/2.0);
+}
+
+
 + (UIView *)personalButtonImage:(NSString *)imageName buttonName:(NSString *)title target:(id)target action:(SEL)aSelector forControlEvents:(UIControlEvents)aControlEvents{
     UIImage  *img = IMGNAMED(imageName);
     UIView * theView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH/5, 64)];

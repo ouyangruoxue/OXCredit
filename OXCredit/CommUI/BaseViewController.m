@@ -134,13 +134,13 @@
 
 - (UIButton *)backButton {
     if (!_backButton) {
-        UIImage  *img = IMGNAMED(@"btn_back");
+        UIImage  *img = IMGNAMED(@"return");
         _backButton = [UIButton buttonWithType:UIButtonTypeCustom];
         _backButton.exclusiveTouch = YES;
         _backButton.backgroundColor = [UIColor clearColor];
-        _backButton.frame = CGRectMake(0, floorf((self.topContainerView.height-img.size.height)/2), img.size.width, img.size.height);
+        _backButton.frame = CGRectMake(10, floorf((self.topContainerView.height-img.size.height)/2), img.size.width, img.size.height);
         [_backButton setBackgroundImage:img forState:UIControlStateNormal];
-        [_backButton setBackgroundImage:IMGNAMED(@"btn_back_select") forState:UIControlStateSelected];
+        [_backButton setBackgroundImage:IMGNAMED(@"return") forState:UIControlStateSelected];
         [_backButton addTarget:self action:@selector(back) forControlEvents:UIControlEventTouchUpInside];
         
     }

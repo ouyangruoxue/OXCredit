@@ -53,10 +53,20 @@
     }
 }
 
-
+//匹配包含字母数字汉字的字符串
 +(BOOL)hasCorrectAccountStr:(NSString *)account{
     
     NSString *regex = @"^[a-zA-Z0-9_\u4e00-\u9fa5]+$";
+    if ([account isMatchedByRegex:regex]){
+        return YES;
+    }else{
+        return NO;
+    }
+}
+//匹配由26个字母和数字组成的字符串
++(BOOL)isCorrectPassWordStr:(NSString *)account{
+    
+    NSString *regex = @"((?=.*[0-9])(?=.*[^0-9])|(?=.*[a-zA-Z])(?=.*[^a-zA-Z]))^.{6,12}$";
     if ([account isMatchedByRegex:regex]){
         return YES;
     }else{

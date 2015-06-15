@@ -15,6 +15,7 @@
 @property(nonatomic,strong)UILabel  *accessLabel;
 @property(nonatomic,strong)CustomBadge *badageView;
 @property(nonatomic,strong)UIView  *lineView;
+@property(nonatomic,strong)UIView  *toplineView;
 @property(nonatomic,strong)UIImageView  *redPoint;
 - (void)setUnreadNumber:(NSInteger)num;
 @end

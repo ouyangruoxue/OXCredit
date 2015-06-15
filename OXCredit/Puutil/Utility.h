@@ -20,4 +20,6 @@
 + (UIButton *)rightViewWithimage:(NSString *)imageName andTitle:(NSString *)title target:(id)target action:(SEL)aSelector forControlEvents:(UIControlEvents)aControlEvents;
 
 + (BOOL)point:(CGPoint)pt inRect:(CGRect)rect;
+
++ (int)countWord:(NSString*)s;
 @end

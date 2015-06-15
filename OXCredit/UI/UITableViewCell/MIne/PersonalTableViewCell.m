@@ -18,11 +18,18 @@
     _accessLabel = nil;
     _badageView = nil;
     _redPoint = nil;
+    _toplineView = nil;
 }
 
 -(id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier{
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
     if (self) {
+        
+        
+        _toplineView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, 0.5)];
+        _toplineView.backgroundColor = [PUUtil getColorByHexadecimalColor:@"e5e5e5"];
+        _toplineView.hidden = YES;
+        [self.contentView addSubview:self.toplineView];
         
         //头像
         _iconImage = [[UIImageView alloc] initWithFrame:CGRectMake(20, 0, 35, 30)];
@@ -64,9 +71,13 @@
     return self;
 }
 
-
-- (void)awakeFromNib {
-    // Initialization code
+-(void)layoutSubviews{
+    [super layoutSubviews];
+    _iconImage.centerY = self.contentView.height/2;
+    _nameLabel.centerY = self.contentView.height/2;
+    _accessLabel.centerY = self.contentView.height/2;
+    _badageView.centerY = self.contentView.height/2;
+    _redPoint.centerY = self.contentView.height/2;
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {

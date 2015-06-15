@@ -45,6 +45,12 @@ typedef enum {
 
 
 typedef enum {
+    myAccountType = 0,//我的账户
+    myProductType//我的产品
+
+}choosePopViewType;
+
+typedef enum {
     articleMatching = 0,//商品描述相符
     sellersAttitude,//卖家服务态度
     logisticSpeed,//物流速度

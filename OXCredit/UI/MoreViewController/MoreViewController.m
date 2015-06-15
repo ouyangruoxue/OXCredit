@@ -8,6 +8,9 @@
 
 #import "MoreViewController.h"
 #import "MoreTableViewCell.h"
+#import  "HelpCenterViewController.h"
+#import "NoticeViewController.h"
+#import "FeedBackViewController.h"
 @interface MoreViewController ()<UITableViewDataSource,UITableViewDelegate>
 @property(nonatomic,strong)UITableView *moreTable;
 @end
@@ -63,6 +66,56 @@
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    if (indexPath.section == 0) {
+        
+        NSInteger row = indexPath.row;
+        switch (row) {
+            case 0:{
+                NoticeViewController *notic = [[NoticeViewController alloc] init];
+                [self.navigationController pushViewController:notic animated:YES];
+            }
+                break;
+            case 1:{
+                HelpCenterViewController * helpcenter = [[HelpCenterViewController alloc] init];
+                [self.navigationController pushViewController:helpcenter animated:YES];
+            }
+                break;
+            case 2:{
+
+            }
+                break;
+            case 3:{
+
+                }
+                break;
+                
+            default:
+                break;
+        }
+    }
+    else if (indexPath.section == 1){
+        NSInteger row = indexPath.row;
+        switch (row) {
+            case 0:{
+
+            }
+                break;
+            case 1:{
+
+                FeedBackViewController *feedback = [[FeedBackViewController alloc] init];
+                [self.navigationController pushViewController:feedback animated:YES];
+            }
+                break;
+            case 2:{
+                
+            }
+                break;
+                
+            default:
+                break;
+        }
+
+    }
 }
 
 

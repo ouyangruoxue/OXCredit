@@ -78,7 +78,7 @@
 #define BOLDFONT_TITLE(X)     [UIFont boldSystemFontOfSize:X]
 
 #define KEY_WINDOW  [[UIApplication sharedApplication]keyWindow]
-#define K_BACKGROUND_COLOR [PUUtil getColorByHexadecimalColor:@"fafafa"]
+#define K_BACKGROUND_COLOR [PUUtil getColorByHexadecimalColor:@"f7f7f7"]
 
 //定义色色常量
 #define kApp_Corlor_1      [PUUtil getColorByHexadecimalColor:@"ffffff"]

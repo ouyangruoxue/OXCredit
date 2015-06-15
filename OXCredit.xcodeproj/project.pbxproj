@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		DA0B59091B22D72E007A9157 /* ProjectTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA0B59081B22D72E007A9157 /* ProjectTableViewCell.m */; };
 		DA0B59101B22F1CF007A9157 /* MoreTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA0B590F1B22F1CF007A9157 /* MoreTableViewCell.m */; };
+		DA637BCD1B2AAF420060DCC5 /* MyProductViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA637BCC1B2AAF420060DCC5 /* MyProductViewController.m */; };
 		DA924D971B213EFC002F67B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA924D961B213EFC002F67B5 /* main.m */; };
 		DA924D9A1B213EFC002F67B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA924D991B213EFC002F67B5 /* AppDelegate.m */; };
 		DA924DA21B213EFC002F67B5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA924DA11B213EFC002F67B5 /* Images.xcassets */; };
@@ -93,6 +94,21 @@
 		DA924EBC1B219B57002F67B5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA924EBA1B219B57002F67B5 /* LaunchScreen.xib */; };
 		DA924EBD1B219B57002F67B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA924EBB1B219B57002F67B5 /* Main.storyboard */; };
 		DA924EC01B21BA95002F67B5 /* PersonalTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA924EBF1B21BA95002F67B5 /* PersonalTableViewCell.m */; };
+		DA92CF671B2679A4006475C2 /* HelpCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA92CF661B2679A4006475C2 /* HelpCenterViewController.m */; };
+		DA92CF6A1B2687D6006475C2 /* NoticeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA92CF691B2687D6006475C2 /* NoticeViewController.m */; };
+		DA92CF6D1B268C4E006475C2 /* NoticeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA92CF6C1B268C4E006475C2 /* NoticeTableViewCell.m */; };
+		DA92CF701B269A56006475C2 /* NoticeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA92CF6F1B269A56006475C2 /* NoticeDetailViewController.m */; };
+		DA92CF731B26B60E006475C2 /* FeedBackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA92CF721B26B60E006475C2 /* FeedBackViewController.m */; };
+		DA92CF761B26D6D4006475C2 /* MyReleasedProductViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA92CF751B26D6D4006475C2 /* MyReleasedProductViewController.m */; };
+		DA92CF7C1B26F4C2006475C2 /* myReleaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA92CF7B1B26F4C2006475C2 /* myReleaseTableViewCell.m */; };
+		DA9923151B282AD3006A0249 /* MyAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9923141B282AD3006A0249 /* MyAccountViewController.m */; };
+		DA9923181B283274006A0249 /* ChooseAccountRecordTypeView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9923171B283274006A0249 /* ChooseAccountRecordTypeView.m */; };
+		DA99231B1B284AA7006A0249 /* MyAccountRecordTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA99231A1B284AA7006A0249 /* MyAccountRecordTableViewCell.m */; };
+		DAC17BF01B292DD6000D8AF9 /* SecuritySetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC17BEF1B292DD6000D8AF9 /* SecuritySetViewController.m */; };
+		DAC17BF31B2937FC000D8AF9 /* BindMobileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC17BF21B2937FC000D8AF9 /* BindMobileViewController.m */; };
+		DAC17BF61B29380E000D8AF9 /* BindEmailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC17BF51B29380E000D8AF9 /* BindEmailViewController.m */; };
+		DAC17BF91B2981F8000D8AF9 /* PassWordSetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC17BF81B2981F8000D8AF9 /* PassWordSetViewController.m */; };
+		DAC17BFC1B299661000D8AF9 /* DealPassWordSetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC17BFB1B299661000D8AF9 /* DealPassWordSetViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,6 +126,8 @@
 		DA0B59081B22D72E007A9157 /* ProjectTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectTableViewCell.m; sourceTree = "<group>"; };
 		DA0B590E1B22F1CF007A9157 /* MoreTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreTableViewCell.h; sourceTree = "<group>"; };
 		DA0B590F1B22F1CF007A9157 /* MoreTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreTableViewCell.m; sourceTree = "<group>"; };
+		DA637BCB1B2AAF420060DCC5 /* MyProductViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyProductViewController.h; sourceTree = "<group>"; };
+		DA637BCC1B2AAF420060DCC5 /* MyProductViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyProductViewController.m; sourceTree = "<group>"; };
 		DA924D911B213EFC002F67B5 /* OXCredit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OXCredit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA924D951B213EFC002F67B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA924D961B213EFC002F67B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -267,6 +285,36 @@
 		DA924EBB1B219B57002F67B5 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		DA924EBE1B21BA95002F67B5 /* PersonalTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalTableViewCell.h; sourceTree = "<group>"; };
 		DA924EBF1B21BA95002F67B5 /* PersonalTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalTableViewCell.m; sourceTree = "<group>"; };
+		DA92CF651B2679A4006475C2 /* HelpCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpCenterViewController.h; sourceTree = "<group>"; };
+		DA92CF661B2679A4006475C2 /* HelpCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpCenterViewController.m; sourceTree = "<group>"; };
+		DA92CF681B2687D6006475C2 /* NoticeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoticeViewController.h; sourceTree = "<group>"; };
+		DA92CF691B2687D6006475C2 /* NoticeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoticeViewController.m; sourceTree = "<group>"; };
+		DA92CF6B1B268C4E006475C2 /* NoticeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoticeTableViewCell.h; sourceTree = "<group>"; };
+		DA92CF6C1B268C4E006475C2 /* NoticeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoticeTableViewCell.m; sourceTree = "<group>"; };
+		DA92CF6E1B269A56006475C2 /* NoticeDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoticeDetailViewController.h; sourceTree = "<group>"; };
+		DA92CF6F1B269A56006475C2 /* NoticeDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoticeDetailViewController.m; sourceTree = "<group>"; };
+		DA92CF711B26B60E006475C2 /* FeedBackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedBackViewController.h; sourceTree = "<group>"; };
+		DA92CF721B26B60E006475C2 /* FeedBackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedBackViewController.m; sourceTree = "<group>"; };
+		DA92CF741B26D6D4006475C2 /* MyReleasedProductViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyReleasedProductViewController.h; sourceTree = "<group>"; };
+		DA92CF751B26D6D4006475C2 /* MyReleasedProductViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyReleasedProductViewController.m; sourceTree = "<group>"; };
+		DA92CF7A1B26F4C2006475C2 /* myReleaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myReleaseTableViewCell.h; sourceTree = "<group>"; };
+		DA92CF7B1B26F4C2006475C2 /* myReleaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myReleaseTableViewCell.m; sourceTree = "<group>"; };
+		DA9923131B282AD2006A0249 /* MyAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAccountViewController.h; sourceTree = "<group>"; };
+		DA9923141B282AD3006A0249 /* MyAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAccountViewController.m; sourceTree = "<group>"; };
+		DA9923161B283274006A0249 /* ChooseAccountRecordTypeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseAccountRecordTypeView.h; sourceTree = "<group>"; };
+		DA9923171B283274006A0249 /* ChooseAccountRecordTypeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChooseAccountRecordTypeView.m; sourceTree = "<group>"; };
+		DA9923191B284AA7006A0249 /* MyAccountRecordTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAccountRecordTableViewCell.h; sourceTree = "<group>"; };
+		DA99231A1B284AA7006A0249 /* MyAccountRecordTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAccountRecordTableViewCell.m; sourceTree = "<group>"; };
+		DAC17BEE1B292DD6000D8AF9 /* SecuritySetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecuritySetViewController.h; sourceTree = "<group>"; };
+		DAC17BEF1B292DD6000D8AF9 /* SecuritySetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecuritySetViewController.m; sourceTree = "<group>"; };
+		DAC17BF11B2937FC000D8AF9 /* BindMobileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BindMobileViewController.h; sourceTree = "<group>"; };
+		DAC17BF21B2937FC000D8AF9 /* BindMobileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BindMobileViewController.m; sourceTree = "<group>"; };
+		DAC17BF41B29380E000D8AF9 /* BindEmailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BindEmailViewController.h; sourceTree = "<group>"; };
+		DAC17BF51B29380E000D8AF9 /* BindEmailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BindEmailViewController.m; sourceTree = "<group>"; };
+		DAC17BF71B2981F8000D8AF9 /* PassWordSetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PassWordSetViewController.h; sourceTree = "<group>"; };
+		DAC17BF81B2981F8000D8AF9 /* PassWordSetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PassWordSetViewController.m; sourceTree = "<group>"; };
+		DAC17BFA1B299661000D8AF9 /* DealPassWordSetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DealPassWordSetViewController.h; sourceTree = "<group>"; };
+		DAC17BFB1B299661000D8AF9 /* DealPassWordSetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DealPassWordSetViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -303,6 +351,8 @@
 			children = (
 				DA0B590E1B22F1CF007A9157 /* MoreTableViewCell.h */,
 				DA0B590F1B22F1CF007A9157 /* MoreTableViewCell.m */,
+				DA92CF6B1B268C4E006475C2 /* NoticeTableViewCell.h */,
+				DA92CF6C1B268C4E006475C2 /* NoticeTableViewCell.m */,
 			);
 			path = More;
 			sourceTree = "<group>";
@@ -632,6 +682,22 @@
 			children = (
 				DA924E9B1B218361002F67B5 /* MineViewController.h */,
 				DA924E9C1B218361002F67B5 /* MineViewController.m */,
+				DA92CF741B26D6D4006475C2 /* MyReleasedProductViewController.h */,
+				DA92CF751B26D6D4006475C2 /* MyReleasedProductViewController.m */,
+				DA9923131B282AD2006A0249 /* MyAccountViewController.h */,
+				DA9923141B282AD3006A0249 /* MyAccountViewController.m */,
+				DAC17BEE1B292DD6000D8AF9 /* SecuritySetViewController.h */,
+				DAC17BEF1B292DD6000D8AF9 /* SecuritySetViewController.m */,
+				DAC17BF11B2937FC000D8AF9 /* BindMobileViewController.h */,
+				DAC17BF21B2937FC000D8AF9 /* BindMobileViewController.m */,
+				DAC17BF41B29380E000D8AF9 /* BindEmailViewController.h */,
+				DAC17BF51B29380E000D8AF9 /* BindEmailViewController.m */,
+				DAC17BF71B2981F8000D8AF9 /* PassWordSetViewController.h */,
+				DAC17BF81B2981F8000D8AF9 /* PassWordSetViewController.m */,
+				DAC17BFA1B299661000D8AF9 /* DealPassWordSetViewController.h */,
+				DAC17BFB1B299661000D8AF9 /* DealPassWordSetViewController.m */,
+				DA637BCB1B2AAF420060DCC5 /* MyProductViewController.h */,
+				DA637BCC1B2AAF420060DCC5 /* MyProductViewController.m */,
 			);
 			path = MIneViewController;
 			sourceTree = "<group>";
@@ -641,6 +707,14 @@
 			children = (
 				DA924E9E1B218384002F67B5 /* MoreViewController.h */,
 				DA924E9F1B218384002F67B5 /* MoreViewController.m */,
+				DA92CF651B2679A4006475C2 /* HelpCenterViewController.h */,
+				DA92CF661B2679A4006475C2 /* HelpCenterViewController.m */,
+				DA92CF681B2687D6006475C2 /* NoticeViewController.h */,
+				DA92CF691B2687D6006475C2 /* NoticeViewController.m */,
+				DA92CF6E1B269A56006475C2 /* NoticeDetailViewController.h */,
+				DA92CF6F1B269A56006475C2 /* NoticeDetailViewController.m */,
+				DA92CF711B26B60E006475C2 /* FeedBackViewController.h */,
+				DA92CF721B26B60E006475C2 /* FeedBackViewController.m */,
 			);
 			path = MoreViewController;
 			sourceTree = "<group>";
@@ -677,6 +751,10 @@
 			children = (
 				DA924EBE1B21BA95002F67B5 /* PersonalTableViewCell.h */,
 				DA924EBF1B21BA95002F67B5 /* PersonalTableViewCell.m */,
+				DA92CF7A1B26F4C2006475C2 /* myReleaseTableViewCell.h */,
+				DA92CF7B1B26F4C2006475C2 /* myReleaseTableViewCell.m */,
+				DA9923191B284AA7006A0249 /* MyAccountRecordTableViewCell.h */,
+				DA99231A1B284AA7006A0249 /* MyAccountRecordTableViewCell.m */,
 			);
 			path = MIne;
 			sourceTree = "<group>";
@@ -711,6 +789,8 @@
 		DA924E951B21831D002F67B5 /* Mine */ = {
 			isa = PBXGroup;
 			children = (
+				DA9923161B283274006A0249 /* ChooseAccountRecordTypeView.h */,
+				DA9923171B283274006A0249 /* ChooseAccountRecordTypeView.m */,
 			);
 			path = Mine;
 			sourceTree = "<group>";
@@ -835,6 +915,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA92CF701B269A56006475C2 /* NoticeDetailViewController.m in Sources */,
+				DA99231B1B284AA7006A0249 /* MyAccountRecordTableViewCell.m in Sources */,
 				DA924E811B217F68002F67B5 /* UIImage+GIF.m in Sources */,
 				DA924E491B217F68002F67B5 /* NSArray+Comparisons.m in Sources */,
 				DA924E651B217F68002F67B5 /* AFNetworkReachabilityManager.m in Sources */,
@@ -844,39 +926,49 @@
 				DA924E551B217F68002F67B5 /* BaseViewController.m in Sources */,
 				DA924E6F1B217F68002F67B5 /* ELCConsole.m in Sources */,
 				DA924E571B217F68002F67B5 /* CustomNavigationController.m in Sources */,
+				DA9923181B283274006A0249 /* ChooseAccountRecordTypeView.m in Sources */,
 				DA924E4F1B217F68002F67B5 /* PopupNotify.m in Sources */,
 				DA924EA31B2183A1002F67B5 /* ProjectViewController.m in Sources */,
 				DA0B59091B22D72E007A9157 /* ProjectTableViewCell.m in Sources */,
 				DA924E6C1B217F68002F67B5 /* ELCAsset.m in Sources */,
 				DA924E6D1B217F68002F67B5 /* ELCAssetCell.m in Sources */,
+				DA92CF6A1B2687D6006475C2 /* NoticeViewController.m in Sources */,
+				DA9923151B282AD3006A0249 /* MyAccountViewController.m in Sources */,
 				DA924E4B1B217F68002F67B5 /* NSDictionary+Additions.m in Sources */,
 				DA924D9A1B213EFC002F67B5 /* AppDelegate.m in Sources */,
 				DA924E6A1B217F68002F67B5 /* AFURLSessionManager.m in Sources */,
 				DA924E561B217F68002F67B5 /* CustomBadge.m in Sources */,
 				DA924E771B217F68002F67B5 /* RegexKitLite.m in Sources */,
+				DA637BCD1B2AAF420060DCC5 /* MyProductViewController.m in Sources */,
+				DA92CF731B26B60E006475C2 /* FeedBackViewController.m in Sources */,
 				DA924E6B1B217F68002F67B5 /* ELCAlbumPickerController.m in Sources */,
 				DA924E601B217F68002F67B5 /* NSData+Encryption.m in Sources */,
 				DA924D971B213EFC002F67B5 /* main.m in Sources */,
 				DA924E5E1B217F68002F67B5 /* DLThreeDESCrypt.m in Sources */,
 				DA924E481B217F68002F67B5 /* Addtions.m in Sources */,
+				DA92CF6D1B268C4E006475C2 /* NoticeTableViewCell.m in Sources */,
 				DA924E4C1B217F68002F67B5 /* NSDictionary+Extensions.m in Sources */,
 				DA924E9A1B21833A002F67B5 /* HomeViewController.m in Sources */,
 				DA924E4D1B217F68002F67B5 /* NSMutableArray+QueueAdditions.m in Sources */,
 				DA924E511B217F68002F67B5 /* UIViewAdditions.m in Sources */,
 				DA924E801B217F68002F67B5 /* UIButton+WebCache.m in Sources */,
 				DA924E9D1B218361002F67B5 /* MineViewController.m in Sources */,
+				DAC17BF01B292DD6000D8AF9 /* SecuritySetViewController.m in Sources */,
 				DA924E831B217F68002F67B5 /* UIImageView+HighlightedWebCache.m in Sources */,
 				DA924E5D1B217F68002F67B5 /* AESCrypt.m in Sources */,
 				DA924E5B1B217F68002F67B5 /* PUUtil.m in Sources */,
 				DA924EA01B218384002F67B5 /* MoreViewController.m in Sources */,
 				DA924E841B217F68002F67B5 /* UIImageView+WebCache.m in Sources */,
+				DAC17BF31B2937FC000D8AF9 /* BindMobileViewController.m in Sources */,
 				DA924E791B217F68002F67B5 /* SDImageCache.m in Sources */,
 				DA924E7A1B217F68002F67B5 /* SDWebImageCompat.m in Sources */,
 				DA924E691B217F68002F67B5 /* AFURLResponseSerialization.m in Sources */,
 				DA924E7F1B217F68002F67B5 /* SDWebImagePrefetcher.m in Sources */,
 				DA924E821B217F68002F67B5 /* UIImage+MultiFormat.m in Sources */,
 				DA924E7B1B217F68002F67B5 /* SDWebImageDecoder.m in Sources */,
+				DA92CF7C1B26F4C2006475C2 /* myReleaseTableViewCell.m in Sources */,
 				DA924E611B217F68002F67B5 /* NSString+Base64.m in Sources */,
+				DA92CF671B2679A4006475C2 /* HelpCenterViewController.m in Sources */,
 				DA924E701B217F68002F67B5 /* ELCImagePickerController.m in Sources */,
 				DA924E541B217F68002F67B5 /* Global.m in Sources */,
 				DA924E621B217F68002F67B5 /* AFHTTPRequestOperation.m in Sources */,
@@ -886,7 +978,10 @@
 				DA924E631B217F68002F67B5 /* AFHTTPRequestOperationManager.m in Sources */,
 				DA924E581B217F68002F67B5 /* CustomTabBarController.m in Sources */,
 				DA924E711B217F68002F67B5 /* ELCOverlayImageView.m in Sources */,
+				DAC17BFC1B299661000D8AF9 /* DealPassWordSetViewController.m in Sources */,
+				DA92CF761B26D6D4006475C2 /* MyReleasedProductViewController.m in Sources */,
 				DA924E501B217F68002F67B5 /* UIDevice+Extensions.m in Sources */,
+				DAC17BF91B2981F8000D8AF9 /* PassWordSetViewController.m in Sources */,
 				DA924E5C1B217F68002F67B5 /* Utility.m in Sources */,
 				DA924E591B217F68002F67B5 /* MarkerView.m in Sources */,
 				DA924E5F1B217F68002F67B5 /* NSData+CommonCrypto.m in Sources */,
@@ -895,6 +990,7 @@
 				DA924E781B217F68002F67B5 /* NSData+ImageContentType.m in Sources */,
 				DA924E661B217F68002F67B5 /* AFSecurityPolicy.m in Sources */,
 				DA924E641B217F68002F67B5 /* AFHTTPSessionManager.m in Sources */,
+				DAC17BF61B29380E000D8AF9 /* BindEmailViewController.m in Sources */,
 				DA924E7D1B217F68002F67B5 /* SDWebImageDownloaderOperation.m in Sources */,
 				DA924E4E1B217F68002F67B5 /* NSString+Utility.m in Sources */,
 				DA924E7C1B217F68002F67B5 /* SDWebImageDownloader.m in Sources */,
@@ -956,7 +1052,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -992,7 +1088,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1008,9 +1104,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "${SRCROOT}/OXCredit/PrefixHeader.pch";
 				INFOPLIST_FILE = OXCredit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-licucore";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -1022,9 +1120,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "${SRCROOT}/OXCredit/PrefixHeader.pch";
 				INFOPLIST_FILE = OXCredit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-licucore";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
