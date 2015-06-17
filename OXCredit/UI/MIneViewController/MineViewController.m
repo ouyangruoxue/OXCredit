@@ -13,6 +13,9 @@
 #import "PassWordSetViewController.h"
 #import "SecuritySetViewController.h"
 #import "MyProductViewController.h"
+#import "BankCardAuthViewController.h"
+#import "RealNameAuthViewController.h"
+#import "MyOrderCenterViewController.h"
 @interface MineViewController ()<UITableViewDataSource,UITableViewDelegate>
 @property(nonatomic,strong)UITableView *personalTable;
 @end
@@ -219,12 +222,14 @@
                 break;
                 
             case 2:{
-                
+                RealNameAuthViewController *realName = [[RealNameAuthViewController alloc] init];
+                [self.navigationController pushViewController:realName animated:YES];
             }
                 
                 break;
             case 3:{
-                
+                BankCardAuthViewController *bankcardauth = [[BankCardAuthViewController alloc] init];
+                [self.navigationController pushViewController:bankcardauth animated:YES];
             }
                 
                 break;
@@ -237,6 +242,10 @@
         if (indexPath.row == 0) {
             MyProductViewController *Project = [[MyProductViewController alloc] init];
             [self.navigationController pushViewController:Project animated:YES];
+        }
+        else if(indexPath.row == 1){
+            MyOrderCenterViewController *myorder = [[MyOrderCenterViewController alloc] init];
+            [self.navigationController pushViewController:myorder animated:YES];
         }
     }
 }

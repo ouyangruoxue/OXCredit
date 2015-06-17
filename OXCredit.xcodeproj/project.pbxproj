@@ -10,6 +10,12 @@
 		DA0B59091B22D72E007A9157 /* ProjectTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA0B59081B22D72E007A9157 /* ProjectTableViewCell.m */; };
 		DA0B59101B22F1CF007A9157 /* MoreTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA0B590F1B22F1CF007A9157 /* MoreTableViewCell.m */; };
 		DA637BCD1B2AAF420060DCC5 /* MyProductViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA637BCC1B2AAF420060DCC5 /* MyProductViewController.m */; };
+		DA919FED1B2FB441005F9A54 /* BankCardAuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA919FEC1B2FB441005F9A54 /* BankCardAuthViewController.m */; };
+		DA919FF01B2FBD22005F9A54 /* BindBankCardInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA919FEF1B2FBD22005F9A54 /* BindBankCardInfoViewController.m */; };
+		DA919FF31B2FC05E005F9A54 /* BankCardMobileAuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA919FF21B2FC05E005F9A54 /* BankCardMobileAuthViewController.m */; };
+		DA919FF61B300159005F9A54 /* RealNameAuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA919FF51B300159005F9A54 /* RealNameAuthViewController.m */; };
+		DA919FF91B3014A6005F9A54 /* MyOrderCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA919FF81B3014A6005F9A54 /* MyOrderCenterViewController.m */; };
+		DA919FFC1B30153F005F9A54 /* personalOrderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA919FFB1B30153F005F9A54 /* personalOrderTableViewCell.m */; };
 		DA924D971B213EFC002F67B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA924D961B213EFC002F67B5 /* main.m */; };
 		DA924D9A1B213EFC002F67B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA924D991B213EFC002F67B5 /* AppDelegate.m */; };
 		DA924DA21B213EFC002F67B5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA924DA11B213EFC002F67B5 /* Images.xcassets */; };
@@ -128,6 +134,18 @@
 		DA0B590F1B22F1CF007A9157 /* MoreTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreTableViewCell.m; sourceTree = "<group>"; };
 		DA637BCB1B2AAF420060DCC5 /* MyProductViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyProductViewController.h; sourceTree = "<group>"; };
 		DA637BCC1B2AAF420060DCC5 /* MyProductViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyProductViewController.m; sourceTree = "<group>"; };
+		DA919FEB1B2FB441005F9A54 /* BankCardAuthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BankCardAuthViewController.h; sourceTree = "<group>"; };
+		DA919FEC1B2FB441005F9A54 /* BankCardAuthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BankCardAuthViewController.m; sourceTree = "<group>"; };
+		DA919FEE1B2FBD22005F9A54 /* BindBankCardInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BindBankCardInfoViewController.h; sourceTree = "<group>"; };
+		DA919FEF1B2FBD22005F9A54 /* BindBankCardInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BindBankCardInfoViewController.m; sourceTree = "<group>"; };
+		DA919FF11B2FC05E005F9A54 /* BankCardMobileAuthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BankCardMobileAuthViewController.h; sourceTree = "<group>"; };
+		DA919FF21B2FC05E005F9A54 /* BankCardMobileAuthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BankCardMobileAuthViewController.m; sourceTree = "<group>"; };
+		DA919FF41B300159005F9A54 /* RealNameAuthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RealNameAuthViewController.h; sourceTree = "<group>"; };
+		DA919FF51B300159005F9A54 /* RealNameAuthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RealNameAuthViewController.m; sourceTree = "<group>"; };
+		DA919FF71B3014A6005F9A54 /* MyOrderCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyOrderCenterViewController.h; sourceTree = "<group>"; };
+		DA919FF81B3014A6005F9A54 /* MyOrderCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyOrderCenterViewController.m; sourceTree = "<group>"; };
+		DA919FFA1B30153F005F9A54 /* personalOrderTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = personalOrderTableViewCell.h; sourceTree = "<group>"; };
+		DA919FFB1B30153F005F9A54 /* personalOrderTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = personalOrderTableViewCell.m; sourceTree = "<group>"; };
 		DA924D911B213EFC002F67B5 /* OXCredit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OXCredit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA924D951B213EFC002F67B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA924D961B213EFC002F67B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -698,6 +716,16 @@
 				DAC17BFB1B299661000D8AF9 /* DealPassWordSetViewController.m */,
 				DA637BCB1B2AAF420060DCC5 /* MyProductViewController.h */,
 				DA637BCC1B2AAF420060DCC5 /* MyProductViewController.m */,
+				DA919FEB1B2FB441005F9A54 /* BankCardAuthViewController.h */,
+				DA919FEC1B2FB441005F9A54 /* BankCardAuthViewController.m */,
+				DA919FEE1B2FBD22005F9A54 /* BindBankCardInfoViewController.h */,
+				DA919FEF1B2FBD22005F9A54 /* BindBankCardInfoViewController.m */,
+				DA919FF11B2FC05E005F9A54 /* BankCardMobileAuthViewController.h */,
+				DA919FF21B2FC05E005F9A54 /* BankCardMobileAuthViewController.m */,
+				DA919FF41B300159005F9A54 /* RealNameAuthViewController.h */,
+				DA919FF51B300159005F9A54 /* RealNameAuthViewController.m */,
+				DA919FF71B3014A6005F9A54 /* MyOrderCenterViewController.h */,
+				DA919FF81B3014A6005F9A54 /* MyOrderCenterViewController.m */,
 			);
 			path = MIneViewController;
 			sourceTree = "<group>";
@@ -749,6 +777,8 @@
 		DA924E901B21831D002F67B5 /* MIne */ = {
 			isa = PBXGroup;
 			children = (
+				DA919FFA1B30153F005F9A54 /* personalOrderTableViewCell.h */,
+				DA919FFB1B30153F005F9A54 /* personalOrderTableViewCell.m */,
 				DA924EBE1B21BA95002F67B5 /* PersonalTableViewCell.h */,
 				DA924EBF1B21BA95002F67B5 /* PersonalTableViewCell.m */,
 				DA92CF7A1B26F4C2006475C2 /* myReleaseTableViewCell.h */,
@@ -915,6 +945,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA919FF01B2FBD22005F9A54 /* BindBankCardInfoViewController.m in Sources */,
 				DA92CF701B269A56006475C2 /* NoticeDetailViewController.m in Sources */,
 				DA99231B1B284AA7006A0249 /* MyAccountRecordTableViewCell.m in Sources */,
 				DA924E811B217F68002F67B5 /* UIImage+GIF.m in Sources */,
@@ -955,6 +986,7 @@
 				DA924E9D1B218361002F67B5 /* MineViewController.m in Sources */,
 				DAC17BF01B292DD6000D8AF9 /* SecuritySetViewController.m in Sources */,
 				DA924E831B217F68002F67B5 /* UIImageView+HighlightedWebCache.m in Sources */,
+				DA919FED1B2FB441005F9A54 /* BankCardAuthViewController.m in Sources */,
 				DA924E5D1B217F68002F67B5 /* AESCrypt.m in Sources */,
 				DA924E5B1B217F68002F67B5 /* PUUtil.m in Sources */,
 				DA924EA01B218384002F67B5 /* MoreViewController.m in Sources */,
@@ -970,12 +1002,15 @@
 				DA924E611B217F68002F67B5 /* NSString+Base64.m in Sources */,
 				DA92CF671B2679A4006475C2 /* HelpCenterViewController.m in Sources */,
 				DA924E701B217F68002F67B5 /* ELCImagePickerController.m in Sources */,
+				DA919FFC1B30153F005F9A54 /* personalOrderTableViewCell.m in Sources */,
 				DA924E541B217F68002F67B5 /* Global.m in Sources */,
 				DA924E621B217F68002F67B5 /* AFHTTPRequestOperation.m in Sources */,
 				DA924E671B217F68002F67B5 /* AFURLConnectionOperation.m in Sources */,
+				DA919FF61B300159005F9A54 /* RealNameAuthViewController.m in Sources */,
 				DA924EC01B21BA95002F67B5 /* PersonalTableViewCell.m in Sources */,
 				DA0B59101B22F1CF007A9157 /* MoreTableViewCell.m in Sources */,
 				DA924E631B217F68002F67B5 /* AFHTTPRequestOperationManager.m in Sources */,
+				DA919FF91B3014A6005F9A54 /* MyOrderCenterViewController.m in Sources */,
 				DA924E581B217F68002F67B5 /* CustomTabBarController.m in Sources */,
 				DA924E711B217F68002F67B5 /* ELCOverlayImageView.m in Sources */,
 				DAC17BFC1B299661000D8AF9 /* DealPassWordSetViewController.m in Sources */,
@@ -985,6 +1020,7 @@
 				DA924E5C1B217F68002F67B5 /* Utility.m in Sources */,
 				DA924E591B217F68002F67B5 /* MarkerView.m in Sources */,
 				DA924E5F1B217F68002F67B5 /* NSData+CommonCrypto.m in Sources */,
+				DA919FF31B2FC05E005F9A54 /* BankCardMobileAuthViewController.m in Sources */,
 				DA924E6E1B217F68002F67B5 /* ELCAssetTablePicker.m in Sources */,
 				DA924E681B217F68002F67B5 /* AFURLRequestSerialization.m in Sources */,
 				DA924E781B217F68002F67B5 /* NSData+ImageContentType.m in Sources */,

@@ -66,6 +66,10 @@ typedef enum {
 +(BOOL)isEmailFormat:(NSString *)emailStr;
 //判断是否包含非法字符
 +(BOOL)hasCorrectAccountStr:(NSString *)account;
+//匹配银行卡号
++(BOOL)isCorrectBankCardNum:(NSString *)numStr;
+//匹配由26个字母和数字组成的字符串
++(BOOL)isCorrectPassWordStr:(NSString *)password;
 #pragma mark - 文本对齐方式
 + (NSInteger)getTextAlign:(TextAlignTypeE)alignType;
 

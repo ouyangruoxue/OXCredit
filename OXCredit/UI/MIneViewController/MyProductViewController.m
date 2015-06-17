@@ -17,6 +17,11 @@
 @end
 
 @implementation MyProductViewController
+-(void)dealloc{
+    _productTable = nil;
+    _titleBtn = nil;
+}
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -100,11 +105,11 @@
         CGSize temp = CGSizeMake(220, 1000);
         
         CGRect txtSize = [title boundingRectWithSize:temp options:NSStringDrawingUsesLineFragmentOrigin attributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIFont boldSystemFontOfSize:kFont_Size_1],NSFontAttributeName,kApp_Corlor_1,NSForegroundColorAttributeName,nil] context:nil];
-        _titleBtn.width = txtSize.size.width+20;
+        _titleBtn.width = txtSize.size.width+20+5;
         _titleBtn.height = 50;
         _titleBtn.centerX = self.topContainerView.width/2;
         _titleBtn.centerY = self.topContainerView.height/2;
-        _titleBtn.imageEdgeInsets = UIEdgeInsetsMake(5, _titleBtn.width-5, 5, 0);
+        _titleBtn.imageEdgeInsets = UIEdgeInsetsMake(5, _titleBtn.width-10, 5, 0);
         _titleBtn.titleEdgeInsets = UIEdgeInsetsMake(5, 0, 5, 10);
     }
     

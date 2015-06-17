@@ -64,10 +64,10 @@
     }
 }
 //匹配由26个字母和数字组成的字符串
-+(BOOL)isCorrectPassWordStr:(NSString *)account{
++(BOOL)isCorrectPassWordStr:(NSString *)password{
     
     NSString *regex = @"((?=.*[0-9])(?=.*[^0-9])|(?=.*[a-zA-Z])(?=.*[^a-zA-Z]))^.{6,12}$";
-    if ([account isMatchedByRegex:regex]){
+    if ([password isMatchedByRegex:regex]){
         return YES;
     }else{
         return NO;
@@ -75,6 +75,16 @@
 }
 
 
+//匹配银行卡号
++(BOOL)isCorrectBankCardNum:(NSString *)numStr{
+    
+    NSString *regex = @"/^(\[0-9]{16}|\[0-9]{19})$/";
+    if ([numStr isMatchedByRegex:regex]){
+        return YES;
+    }else{
+        return NO;
+    }
+}
 
 + (NSInteger)getTextAlign:(TextAlignTypeE)alignType {
     NSInteger alignment = NSTextAlignmentLeft;
